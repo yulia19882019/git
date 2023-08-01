@@ -18,6 +18,7 @@ div{
 .container {
     height: 50vh;
     display: flex;
+    d
 }
 .block_1{
     background-color: blue;
@@ -32,3 +33,5 @@ div{
         color:green;
     }
 }
+
+background-image: url(./img/ветка.jpg);

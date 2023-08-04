@@ -1,37 +1,215 @@
-*{color: ;}
-p {
-    background-color: blue;
+
+/*****HEADER*****/
+header{
+    height: 70px;
+    width: 1300px;
+    background-color: rgb(209, 223, 224) ;
 }
-#par {background-color: brown;}
-.text-white{color: white;}
-.text-upper{text-transform: uppercase;}
-[href="http://Synergy.ru/"] {color: hotpink;}
-p::first-line {color: red;}
-p::before {content: before;}
-p::after{content: after;}
-a:hover {color: blue;}
-li:nth-child(n+2){color:red;}
-p{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-div{
-    border: 1px  solid black;
+.input{
+    position: absolute;
+    margin-left: 50%;
+    margin-top:25px ;
+    
 }
-.container {
-    height: 50vh;
-    display: flex;
-    d
+.logo{
+    position: absolute;
+    transform: translate(70px);
+    margin-top: 10px;
+ 
 }
-.block_1{
-    background-color: blue;
+.button{
+    position: absolute;
+    left: 300px;
+    bottom: 590px;
 }
-.block_2{background-color: chocolate;
-}
-.block_3{background-color: crimson;
+ /*****MAIN*****/
+.container2{
+    height:auto;
+    width: 1300px;
+  
 }
 
-@media screen { 
-    .inner {
-        color:green;
+.branch{
+  padding-left: 700px;
+  filter:opacity(0.4)
+}
+.berri{
+ position: absolute;
+ bottom: 00px;
+}
+.name{
+    color: rgb(20, 20, 92);
+    position: absolute;
+    bottom: 300px ;
+    left: 300px; ;
+    font-size:60px;
+}
+.text1{
+    color: rgb(20, 20, 92);
+    position: absolute;
+    bottom: 280px;
+    left: 100px;
+    font-size: 20px;
+}
+.text2{
+    color: rgb(20, 20, 92);
+    position: absolute;  
+    bottom: 350px;
+    left: 550px;
+    font-size: 20px;
+}
+.text3{
+    color: rgb(20, 20, 92);
+    position: absolute;
+    bottom: -320px;
+    left: 950px;
+    font-size: 40px;
+    
+}
+.text4{
+    color: rgb(20, 20, 92);
+    position: absolute; 
+    left: 950px;
+    bottom: 100px;
+    font-size: 20px;
+    
+}
+.text5{
+    color: rgb(20, 20, 92);
+    position: absolute;
+    bottom: 170px;
+    left: 310px;
+    font-size: 20px;
+ 
+
+}
+.text6{
+    color: rgb(20, 20, 92);
+    position: absolute;
+    bottom: 10px;
+    left: 310px;
+    font-size: 20px;
+  
+}
+.text7{
+    color: rgb(20, 20, 92);
+    position: absolute;
+    bottom: -130px;
+    left: 310px;
+    font-size: 20px;
+}
+.text8{
+    color: rgb(20, 20, 92);
+    position: absolute;
+    bottom: -310px;
+    left: 10px;
+    font-size: 17px;
+}
+.choose{
+    position: absolute;
+    bottom:575px;
+    left: 490px;
+ }
+
+/*****FOOTER*****/
+footer{
+    height: 90px;
+    width: 1300px;
+    background-color: rgb(209, 223, 224) ;
+}
+.contacts{
+    color:rgb(20, 20, 92) ;
+    position: absolute;
+    left: 100px;
+}
+.tel{
+    color:rgb(20, 20, 92) ;
+    position: absolute;
+    left: 100px;
+    bottom: -440px; 
+}
+
+/********ADAPTATION***********/
+@media ( max-width:1300px){
+    .header{
+        padding-left: 10px;
+        padding-right: 10px;
     }
-}
+    .logo{
+        font-size: 2px;
+        line-height: 5px;
+    }
+    .input{
+      font-size: 10px;
+      line-height: 20px;
+      
+    }
+    .container2{
+        width: 100%;
+    }
+    .branch{
+        width: 100%;
+    }
+    .name{
+        font-size: 20px;
+        left: 100px;
+        top: 50px;
+    }
+    .text1{
+        color:blue;
+        font-size:15px ;
+        top: 130px;
+    }
+    .text2{
+        color: blue;
+        font-size:15px ;
+        left:100px;
+        top: 110px; ;
+    }
+    .text3{
+        color: blue;
+        font-size:25px ;
+        left:100px;
+        top: 850px; ;
+    }
+    .text4{
+        color: blue;
+        font-size:20px ;
+        left: 100px;
+        top: 740px; ;  
+    }
+    .text5{
+        color: blue;
+        font-size:20px ;
+        left: 100px;
+        top: 200px; ;  
+    }
+    .text6{
+        color: blue;
+        font-size:20px ;
+        left: 100px;
+        top: 320px; ; 
+    }
+    .text7{
+        color: blue;
+        font-size:20px ;
+        left: 100px;
+        top: 450px; ; 
+    }
+    .text8{
+        color: blue;
+        font-size:20px ;
+        left: 100px;
+        top: 570px; ; 
+    } 
+    .footer{
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    }
+    
 
-background-image: url(./img/ветка.jpg);
+
+
+

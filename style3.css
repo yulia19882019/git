@@ -1,16 +1,17 @@
 header{
     height: 70px;
-    width: 100%;
-    background-color: rgb(214, 188, 235);
+    width:1300px;
+    background-color: rgb(209, 223, 224);
 }
 .logo{
     position: absolute;
-   transform: translate(10px);
-   margin-top:-20px;
+    left: 90px;
+    bottom: 580px;
+   
    
 }
 .button{
-margin-left: 600px;
-margin-top:-30px;
-
+   position: absolute;
+   left: 300px;
+   bottom: 590px;
 }
